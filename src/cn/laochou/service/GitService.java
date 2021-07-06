@@ -17,5 +17,7 @@ public class GitService {
     public boolean cloneProject() {
         return true;
     }
-    
+
+    public boolean getProject() {return true;}
+
 }
