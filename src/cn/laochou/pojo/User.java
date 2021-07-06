@@ -8,6 +8,8 @@ public class User {
 
     private String password;
 
+    private String hello;
+
     public String getName() {
         return name;
     }
@@ -30,5 +32,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getHello() {
+        return hello;
+    }
+
+    public void setHello(String hello) {
+        this.hello = hello;
     }
 }
